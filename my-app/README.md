@@ -1,7 +1,7 @@
 
 <img width="705" height="335" alt="Screenshot 2026-01-19 at 18 13 21" src="https://github.com/user-attachments/assets/4b324d95-8473-45d8-822e-9e2e222ae70e" />
 
-Counter.jsのソースコード
+**Counter.jsのソースコード**
 
 import { useState, useEffect } from "react";
 
