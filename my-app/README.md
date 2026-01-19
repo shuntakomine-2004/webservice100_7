@@ -8,20 +8,25 @@ import { useState, useEffect } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
 
-  // useEffect：count が変わったときに実行される副作用
   useEffect(() => {
     console.log("カウントが変更されました:", count);
-  }, [count]); // ← ここが依存配列
+  }, [count]); 
 
   return (
     <div>
       <h2>カウンター</h2>
       <p>カウント：{count}</p>
 
-      <button onClick={() => setCount(count + 1)}>+1</button>
-      <button onClick={() => setCount(count - 1)}>-1</button>
+      <button onClick={() => setCount(count + 1)}>
+        +1
+      </button>
+
+      <button onClick={() => setCount(count - 1)}>
+        -1
+      </button>
     </div>
   );
 }
 
 export default Counter;
+
