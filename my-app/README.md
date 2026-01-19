@@ -3,30 +3,4 @@
 
 **Counter.jsのソースコード**
 
-import { useState, useEffect } from "react";
-
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    console.log("カウントが変更されました:", count);
-  }, [count]); 
-
-  return (
-    <div>
-      <h2>カウンター</h2>
-      <p>カウント：{count}</p>
-
-      <button onClick={() => setCount(count + 1)}>
-        +1
-      </button>
-
-      <button onClick={() => setCount(count - 1)}>
-        -1
-      </button>
-    </div>
-  );
-}
-
-export default Counter;
-
+<img width="379" height="473" alt="Screenshot 2026-01-19 at 18 21 49" src="https://github.com/user-attachments/assets/606e74e0-2729-4389-b0a6-1019739aa7d9" />
